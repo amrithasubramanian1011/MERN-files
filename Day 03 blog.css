@@ -1,0 +1,30 @@
+.blogg
+{
+    display: grid;
+    grid-template-columns: repeat(7,210px);
+    color: white;
+}
+#name
+{
+    grid-column-start:2 ;
+    grid-column-end: 5;
+    font-size: 43px;
+}
+#rem
+{
+    font-size: 43px;
+}
+#symbol
+{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+body
+{
+    background-image: url(https://st3.depositphotos.com/1194063/14181/i/450/depositphotos_141815838-stock-photo-various-herbs-and-spices.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
