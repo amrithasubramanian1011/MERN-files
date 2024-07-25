@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Animation</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            animation-name: anime;
+            animation-duration: 5s;
+            position: relative;
+            top: 30px;
+            left: 30px;
+            animation-iteration-count: 5;
+        }
+        @keyframes anime
+         {
+            0% {background-color: rgba(128, 4, 0, 0.889); left: 0px; top: 0px;}
+            25% {background-color: red; left: 300px; top:0px; }
+            50% {background-color: rgb(255, 136, 0); left: 300px; top: 300px;} 
+            75% {background-color: yellow; left: 0px; top: 300px;} 
+            100% {background-color: rgba(176, 217, 41, 0.781); left: 0px; top: 0px;}
+         }
+         div:hover{
+            transform: rotate(180deg);
+         }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
